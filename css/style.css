@@ -1,0 +1,23 @@
+/* Home */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #0a1a31, #091728, #07121f, #040d17, #01060c); }
+
+main .portada {
+  width: 100%;
+  height: 50rem; }
+  main .portada h1 {
+    text-align: center;
+    font-size: 8rem;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #f5dcdc;
+    -webkit-animation: focus-in-contract-bck 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: focus-in-contract-bck 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }

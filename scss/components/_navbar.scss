@@ -1,10 +1,11 @@
 .navegador {
+    width: 100%;
+    height: 8rem;
     top: 0;
-    right: 0; 
-    background-color: rgba(22, 25, 46, 0.616);
+    // right: 0; 
+    // background-color: map-get($colores, navbar);
+    background-image: url("../assets/img/background.png");
     padding: 12px; 
-    margin: 0 50px 0 1200px; 
-    border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.456); 
     transition: all 300ms;
     ul {
@@ -17,7 +18,8 @@
         display:inline-block;
         margin-left: 10px;
         a {
-            font-family: "Goldman", sans-serif;
+            font-family: "Bungee", sans-serif;
+            font-style: normal;
             font-weight: 50px;
             color: white; 
             text-decoration: none;

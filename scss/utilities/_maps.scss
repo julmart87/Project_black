@@ -1,10 +1,14 @@
+/* paleta de colores (claro) #F1F1E6 (lavanda) #B3BFDF  (dorado) #D8A31A */ 
+
 $colores:(
     // fondoHeader: rgba(30, 30, 49, 0.782),
     // rgba(30, 30, 49, 0.947),
+    navbar: #34415B,
     fondoHeader: rgba(30, 30, 49, 0.947),
     fondoFooter: rgba(8, 12, 21, 0.912),
-    fondoParrafo: rgba(92, 102, 110, 0.533),
-    letras: #F2F3FD,
+    fondoParrafo: #f9f97189,
+    // letras: rgb(245, 220, 220),
+    letras: #F1F1E6,
     letrasH4: #F2F3FD,
     hover: rgba(45, 73, 97, 0.694),
     tituloPortada: white,

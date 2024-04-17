@@ -1,13 +1,18 @@
 /* Utilities*/
+/* paleta de colores (claro) #F1F1E6 (lavanda) #B3BFDF  (dorado) #D8A31A */
 /* Base*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /* Components */
 .navegador {
+  width: 100%;
+  height: 8rem;
   top: 0;
-  right: 0;
-  background-color: rgba(22, 25, 46, 0.616);
+  background-image: url("../assets/img/background.png");
   padding: 12px;
-  margin: 0 50px 0 1200px;
-  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.456);
   transition: all 300ms;
   /** animacion en la barra de navegacion **/ }
@@ -20,7 +25,8 @@
     display: inline-block;
     margin-left: 10px; }
     .navegador li a {
-      font-family: "Goldman", sans-serif;
+      font-family: "Bungee", sans-serif;
+      font-style: normal;
       font-weight: 50px;
       color: white;
       text-decoration: none;
@@ -30,26 +36,69 @@
 /* aca se oculta el menu desplegable del desktop */
 /* img del menu */
 /* Layout */
+.principal {
+  width: 100%;
+  height: 100vh; }
+  .principal .index {
+    background: #4B79A1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+    .principal .index h1 {
+      padding-top: 12rem;
+      text-align: center;
+      font-size: 8rem;
+      font-family: "Bangers", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      color: #f5dcdc;
+      -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: tracking-in-contract 2s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: normal;
+    opacity: 1; } }
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 0.5em;
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    letter-spacing: normal;
+    opacity: 1; } }
+    .principal .index .parrafo_1 {
+      width: 50rem;
+      height: 30rem;
+      border-radius: 30px;
+      margin-left: 25%;
+      margin-top: 12rem; }
+      .principal .index .parrafo_1 p {
+        color: #F1F1E6;
+        text-align: center;
+        font-family: "Bungee", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1rem; }
+    .principal .index .photo {
+      width: 100%;
+      height: 80rem;
+      display: flex;
+      flex-direction: row;
+      gap: 6rem;
+      margin-left: 26rem; }
+      .principal .index .photo img {
+        width: 28rem;
+        height: 22rem;
+        border-radius: .625rem; }
+
 /* Home */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-body {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(to bottom, #0a1a31, #091728, #07121f, #040d17, #01060c); }
-
-main .portada {
-  width: 100%;
-  height: 50rem; }
-  main .portada h1 {
-    text-align: center;
-    font-size: 8rem;
-    font-family: "Bangers", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    color: #f5dcdc;
-    -webkit-animation: focus-in-contract-bck 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: focus-in-contract-bck 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }

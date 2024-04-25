@@ -2,10 +2,12 @@
 @import "./utilities/maps";
 /* Base*/
 @import "./base/reset";
+@import "./base/generales";
 /* Components */
-@import "./components/navbar";
+@import "./components/header";
 /* Layout */
 @import "./layout/index";
+// @import "./layout/header";
 
 
 

@@ -6,10 +6,23 @@
   padding: 0;
   box-sizing: border-box; }
 
+h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 4rem; }
+
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem; }
+
 p {
   font-family: "Barlow Condensed", sans-serif;
-  font-weight: 200;
-  font-style: normal; }
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem; }
 
 /* Components */
 .header {
@@ -30,7 +43,7 @@ p {
     -webkit-animation: scale-in-ver-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: scale-in-ver-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
     .header .logo img {
-      height: 3.125rem;
+      height: 3.375rem;
       margin-right: 10px; }
   .header .navbar {
     display: flex;
@@ -44,12 +57,13 @@ p {
         display: inline-block;
         margin-left: 10px; }
         .header .navbar ul li a {
-          font-family: "Bungee", sans-serif;
+          font-family: "Barlow Condensed", sans-serif;
+          font-weight: 200;
           font-style: normal;
-          font-weight: 50px;
+          font-size: 1.5rem;
           color: white;
           text-decoration: none;
-          padding: 15px;
+          padding: 50px;
           text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
           transition: transform 0.3s ease; }
         .header .navbar ul li:hover {
@@ -91,7 +105,7 @@ p {
   width: 100%;
   height: 100vh; }
   .principal .home {
-    height: 55rem;
+    height: 60rem;
     background-image: url(../assets/img/fondo_home.jpg);
     background-size: cover; }
     .principal .home .texto-home {
@@ -99,10 +113,6 @@ p {
       padding-top: 25%; }
       .principal .home .texto-home h1 {
         text-align: left;
-        font-size: 4rem;
-        font-family: "Barlow Condensed", sans-serif;
-        font-weight: 100;
-        font-style: normal;
         color: #1d1515;
         -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.61, 0.355, 1) both;
         animation: tracking-in-contract 2s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
@@ -127,30 +137,43 @@ p {
     letter-spacing: normal;
     opacity: 1; } }
   .principal .about {
-    height: 58rem; }
-  .principal .parrafo_1 {
-    width: 50rem;
-    height: 30rem;
-    border-radius: 30px;
-    margin-left: 25%;
-    margin-top: 12rem; }
-    .principal .parrafo_1 p {
-      color: #F1F1E6;
-      text-align: center;
-      font-family: "Bungee", sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      font-size: 1rem; }
-  .principal .photo {
-    width: 100%;
-    height: 80rem;
+    height: 58rem;
     display: flex;
-    flex-direction: row;
-    gap: 6rem; }
-    .principal .photo img {
-      width: 28rem;
-      height: 22rem;
-      border-radius: .625rem;
-      margin-left: 18rem; }
+    justify-content: space-between;
+    background-color: #201c1c; }
+    .principal .about .about-text {
+      width: 60%;
+      padding-top: 5rem;
+      margin: 2rem; }
+      .principal .about .about-text h1 {
+        color: #f7ecec; }
+      .principal .about .about-text p {
+        color: #f7ecec;
+        padding-top: 2rem; }
+      .principal .about .about-text .items {
+        padding-top: 5rem; }
+        .principal .about .about-text .items h2 {
+          color: #9d4e4e; }
+        .principal .about .about-text .items p {
+          padding-top: 0; }
+    .principal .about .about-img {
+      width: 40%;
+      margin: 5rem; }
+      .principal .about .about-img .perfil {
+        padding-top: 5rem;
+        padding-left: 10rem; }
+        .principal .about .about-img .perfil img {
+          width: 15rem;
+          height: auto;
+          border-radius: 5%; }
+        .principal .about .about-img .perfil .logos ul {
+          padding-top: 4rem;
+          text-decoration: none; }
+          .principal .about .about-img .perfil .logos ul li {
+            list-style-type: none; }
+            .principal .about .about-img .perfil .logos ul li img {
+              margin: 1rem;
+              width: 2.5rem;
+              height: 2.5rem; }
 
 /* Home */

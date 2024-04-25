@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     .home {
-            height: 55rem;
+            height: 60rem;
             background-image: url(../assets/img/fondo_home.jpg);
             background-size: cover;
             .texto-home {
@@ -11,10 +11,10 @@
                 h1 {
                     // padding-top: 12rem;
                     text-align: left;
-                    font-size: 4rem;
-                    font-family: "Barlow Condensed", sans-serif;
-                    font-weight: 100;
-                    font-style: normal;
+                    // font-size: 4rem;
+                    // font-family: "Barlow Condensed", sans-serif;
+                    // font-weight: 100;
+                    // font-style: normal;
                     color: rgb(29, 21, 21);
                     -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
                     animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -52,36 +52,64 @@
         }
     .about {
         height: 58rem;
-    }
-        .parrafo_1 {
-            width: 50rem;
-            height: 30rem;
-            // background-color: map-get($colores, fondoParrafo);
-            border-radius: 30px;
-            margin-left: 25%;
-            margin-top: 12rem;
+        display: flex;
+        justify-content: space-between;
+        background-color: map-get($colores, fondoAbout);
+        .about-text {
+            width: 60%;
+            padding-top: 5rem;
+            margin: 2rem;
+            h1 {
+                color: map-get($colores, aboutH1);
+            }
+            
             p {
-                color: map-get($colores, letras);
-                text-align: center;
-                // padding-top: 6.25rem;
-                font-family: "Bungee", sans-serif;
-                font-weight: 100;
-                font-style: normal;
-                font-size: 1rem;
+                color: map-get($colores, aboutParrafo);
+                padding-top: 2rem;
+            }
+            .items {
+                padding-top: 5rem;
+                h2 {
+                    
+                    color: map-get($colores, aboutH2);
+                }
+                p {
+                    
+                    padding-top: 0;
+                }
             }
         }
-        .photo {
-            width: 100%;
-            height: 80rem;
-            display: flex;
-            flex-direction: row;
-            gap: 6rem;
-            img {
-                width: 28rem;
-                height: 22rem;
-                border-radius: .625rem;
-                margin-left: 18rem;
+        .about-img {
+            width: 40%;
+            margin: 5rem;
+            .perfil {
+                padding-top: 5rem;
+                padding-left: 10rem;
+                img {
+                    width: 15rem;
+                    height: auto;
+                    border-radius: 5%;
+                }
+                .logos {
+                    ul {
+                        padding-top: 4rem;
+                        text-decoration: none;
+                        li {
+                            list-style-type: none;
+                            img {
+                                margin: 1rem;
+                                width: 2.5rem;
+                                height: 2.5rem;
+                            }
+                        }
+                    }
+                    
+                }
             }
+            
         }
+        
+    }
+        
     
 }

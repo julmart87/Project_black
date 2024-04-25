@@ -4,15 +4,24 @@ $colores:(
     // fondoHeader: rgba(30, 30, 49, 0.782),
     // rgba(30, 30, 49, 0.947),
     navbar: rgb(30, 29, 29),
-    fondoHeader: rgb(28, 8, 8),
+    fondoAbout: rgb(32, 28, 28),
     fondoFooter: rgba(8, 12, 21, 0.912),
     fondoParrafo: #f9f97189,
     // letras: rgb(245, 220, 220),
+    aboutH1: rgb(247, 236, 236),
+    aboutH2: rgb(157, 78, 78),
+    aboutParrafo: rgb(247, 236, 236),
     letras: #F1F1E6,
     letrasH4: #F2F3FD,
     hover: rgba(45, 73, 97, 0.694),
-    tituloPortada: white,
-    tituloHeader: #d7d8e7,
+    
     tituloH2: silver,
     tituloH3: #dbddf6,
+);
+
+$fuentes:(
+    h1: 4rem,
+    h2: 1.5rem,
+    parrafo: 1.25rem,
+    navbar: 1.5rem,
 );

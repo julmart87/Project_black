@@ -16,7 +16,7 @@
         -webkit-animation: scale-in-ver-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: scale-in-ver-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         img {
-            height: 3.125rem;
+            height: 3.375rem;
             margin-right: 10px;
         }
     }
@@ -34,12 +34,16 @@
             display:inline-block;
             margin-left: 10px;
             a {
-                font-family: "Bungee", sans-serif;
+                font-family: "Barlow Condensed", sans-serif;
+                font-weight: 200;
                 font-style: normal;
-                font-weight: 50px;
+                font-size: map-get($fuentes, navbar);
+                // font-family: "Bungee", sans-serif;
+                // font-style: normal;
+                // font-weight: 100;
                 color: white; 
                 text-decoration: none;
-                padding: 15px;
+                padding: 50px;
                 text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
                 transition: transform 0.3s ease;
             }

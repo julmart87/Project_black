@@ -1,5 +1,18 @@
+h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: map-get($fuentes, h1);
+}
+h2 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: map-get($fuentes, h2);
+}
 p {
     font-family: "Barlow Condensed", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
+    font-size: map-get($fuentes, parrafo);
 }

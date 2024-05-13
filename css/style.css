@@ -63,7 +63,7 @@ p {
           font-size: 1.5rem;
           color: white;
           text-decoration: none;
-          padding: 50px;
+          padding: 30px;
           text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
           transition: transform 0.3s ease; }
         .header .navbar ul li:hover {
@@ -151,7 +151,10 @@ p {
         color: #f7ecec;
         padding-top: 2rem; }
       .principal .about .about-text .items {
-        padding-top: 5rem; }
+        padding-top: 5rem;
+        margin: 5rem; }
+        .principal .about .about-text .items img {
+          width: 2.5rem; }
         .principal .about .about-text .items h2 {
           color: #9d4e4e; }
         .principal .about .about-text .items p {
@@ -175,5 +178,8 @@ p {
               margin: 1rem;
               width: 2.5rem;
               height: 2.5rem; }
+  .principal .works {
+    height: 58rem;
+    background-color: #f7ecec; }
 
 /* Home */

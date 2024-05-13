@@ -69,6 +69,10 @@
             }
             .items {
                 padding-top: 5rem;
+                margin: 5rem;
+                img {
+                    width: 2.5rem;
+                }
                 h2 {
                     
                     color: map-get($colores, aboutH2);
@@ -103,13 +107,12 @@
                             }
                         }
                     }
-                    
                 }
             }
-            
         }
-        
     }
-        
-    
+    .works {
+        height: 58rem;
+        background-color: map-get($colores, fondoWorks);
+    }
 }
